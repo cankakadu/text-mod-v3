@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "texturecustomizer",
+  "version": "${version}",
+  "name": "Texture Customizer",
+  "description": "Eine professionelle Mod im 02MAX Style zum Verwalten & Mixen von Minecraft 1.21.11 Texturen, Carts und HUD-Elementen.",
+  "authors": [
+    "Developer"
+  ],
+  "contact": {
+    "homepage": "https://github.com/"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.texturecustomizer.TextureCustomizerClient"
+    ]
+  },
+  "mixins": [
+    "texturecustomizer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
