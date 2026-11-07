@@ -1,0 +1,26 @@
+texturecustomizer/
+├── .gitignore
+├── build.gradle
+├── gradle.properties
+├── settings.gradle
+└── src/
+    └── main/
+        ├── java/
+        │   └── com/
+        │       └── texturecustomizer/
+        │           ├── TextureCustomizerClient.java
+        │           ├── categories/
+        │           │   └── TextureCategory.java
+        │           ├── gui/
+        │           │   └── CustomizerScreen.java
+        │           ├── keybind/
+        │           │   └── KeyInputHandler.java
+        │           ├── mixer/
+        │           │   └── TextureMixerManager.java
+        │           ├── resource/
+        │           │   └── ResourceAnalyzer.java
+        │           └── storage/
+        │               └── StorageManager.java
+        └── resources/
+            ├── fabric.mod.json
+            └── texturecustomizer.mixins.json
